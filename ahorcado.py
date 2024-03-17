@@ -62,7 +62,8 @@ euclimedes = [
         ========'''
     ]
 
-palabra = 'hola'
+
+palabra = random.choice(lista)
 indexWord = len(palabra)
 
 print(f'La palabra a encontrar tiene {len(palabra)} letras')
